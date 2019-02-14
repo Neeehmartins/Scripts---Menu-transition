@@ -1,0 +1,68 @@
+
+.bordertop{
+
+    background-image:green;
+    width: 10px;
+    height: 50vw;
+}
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+
+
+}
+
+.menu{
+    display:flex;
+    justify-content: center;
+
+
+}
+
+
+
+.menu-hamburguer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    align-items:center;
+    height: 30px;
+    width: 50px;
+}
+
+
+span {
+   margin: 2px; 
+   background-color: #333;
+   width: 20px;
+   height: 2px;
+   border-radius: 10px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+    transition: 0.1s;
+    justify-content: space-evenly;
+
+}
+
+.nav-visivel{
+  opacity: 1;
+
+}
+
+header{
+    margin:0;
+    display:flex;
+    background-color:crimson;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
